@@ -51,6 +51,6 @@ jobs:
       #     -p ${{vars.PORT}}:${{vars.PORT}} \
       #     frontend_api_image:latest
 
-      # - name: Remove Dangling Docker images
+      # - name: Remove Dangling Docker image
       #   run: |
       #     docker rmi $(docker images --quiet --filter "dangling=true") || true
